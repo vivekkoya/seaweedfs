@@ -19,8 +19,13 @@ func DetectedHostAddress() string {
 		return v4Address
 	}
 
+	// if v6Address := selectIpV4(netInterfaces, false); v6Address != "" {
+	// 	return v6Address
+	// }
+
 	return "localhost"
 }
+
 func selectIpV4(netInterfaces []net.Interface) string {
 	for _, netInterface := range netInterfaces {
 		if (netInterface.Flags & net.FlagUp) == 0 {
@@ -33,7 +38,7 @@ func selectIpV4(netInterfaces []net.Interface) string {
 
 		for _, a := range addrs {
 			if ipNet, ok := a.(*net.IPNet); ok && !ipNet.IP.IsLoopback() {
-					if ipNet.IP.To16() != nil {
+					if ipNet.IP.To4() != nil && ipNet.IP.To16() == nil || ipNet.IP.To16() != nil && ipNet.IP.To4() == nil{
 						return ipNet.IP.String()
 					}
 			}
