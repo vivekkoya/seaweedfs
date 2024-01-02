@@ -9,7 +9,7 @@ require (
 	github.com/Azure/azure-pipeline-go v0.2.3
 	github.com/Azure/azure-storage-blob-go v0.15.0
 	github.com/Shopify/sarama v1.38.1
-	github.com/aws/aws-sdk-go v1.48.4
+	github.com/aws/aws-sdk-go v1.49.0
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bwmarrin/snowflake v0.3.0
 	github.com/cenkalti/backoff/v4 v4.2.1
@@ -41,7 +41,7 @@ require (
 	github.com/golang/protobuf v1.5.3
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/btree v1.1.2
-	github.com/google/uuid v1.4.0
+	github.com/google/uuid v1.5.0
 	github.com/google/wire v0.5.0 // indirect
 	github.com/googleapis/gax-go/v2 v2.12.0 // indirect
 	github.com/gorilla/mux v1.8.1
@@ -57,7 +57,7 @@ require (
 	github.com/json-iterator/go v1.1.12
 	github.com/karlseguin/ccache/v2 v2.0.8
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
-	github.com/klauspost/compress v1.17.2 // indirect
+	github.com/klauspost/compress v1.17.3 // indirect
 	github.com/klauspost/reedsolomon v1.11.8
 	github.com/kurin/blazer v0.5.3
 	github.com/lib/pq v1.10.9
@@ -103,12 +103,12 @@ require (
 	github.com/xdg-go/scram v1.1.2 // indirect
 	github.com/xdg-go/stringprep v1.0.4 // indirect
 	github.com/youmark/pkcs8 v0.0.0-20201027041543-1326539a0a0a // indirect
-	go.etcd.io/etcd/client/v3 v3.5.9
+	go.etcd.io/etcd/client/v3 v3.5.11
 	go.mongodb.org/mongo-driver v1.13.1
 	go.opencensus.io v0.24.0 // indirect
-	gocloud.dev v0.35.0
-	gocloud.dev/pubsub/natspubsub v0.34.0
-	gocloud.dev/pubsub/rabbitpubsub v0.35.0
+	gocloud.dev v0.36.0
+	gocloud.dev/pubsub/natspubsub v0.35.0
+	gocloud.dev/pubsub/rabbitpubsub v0.36.0
 	golang.org/x/crypto v0.17.0 // indirect
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d
 	golang.org/x/image v0.14.0
@@ -116,13 +116,13 @@ require (
 	golang.org/x/oauth2 v0.14.0 // indirect
 	golang.org/x/sys v0.15.0
 	golang.org/x/text v0.14.0 // indirect
-	golang.org/x/tools v0.16.0
+	golang.org/x/tools v0.16.1
 	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028 // indirect
 	google.golang.org/api v0.151.0
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/genproto v0.0.0-20231120223509-83a465c0220f // indirect
 	google.golang.org/grpc v1.59.0
-	google.golang.org/protobuf v1.31.0
+	google.golang.org/protobuf v1.32.0
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	modernc.org/b v1.0.0 // indirect
 	modernc.org/cc/v3 v3.40.0 // indirect
@@ -141,8 +141,8 @@ require (
 	github.com/arangodb/go-driver v1.6.1
 	github.com/armon/go-metrics v0.4.1
 	github.com/aws/aws-sdk-go-v2 v1.24.0
-	github.com/aws/aws-sdk-go-v2/config v1.26.1
-	github.com/aws/aws-sdk-go-v2/credentials v1.16.12
+	github.com/aws/aws-sdk-go-v2/config v1.26.2
+	github.com/aws/aws-sdk-go-v2/credentials v1.16.13
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.47.5
 	github.com/fluent/fluent-logger-golang v1.9.0
 	github.com/golang-jwt/jwt/v5 v5.1.0
@@ -159,7 +159,7 @@ require (
 	github.com/shirou/gopsutil/v3 v3.23.11
 	github.com/tikv/client-go/v2 v2.0.7
 	github.com/ydb-platform/ydb-go-sdk-auth-environ v0.2.0
-	github.com/ydb-platform/ydb-go-sdk/v3 v3.53.3
+	github.com/ydb-platform/ydb-go-sdk/v3 v3.54.2
 	google.golang.org/grpc/security/advancedtls v0.0.0-20220622233350-5cdb09fa29c1
 )
 
@@ -197,11 +197,11 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/internal/checksum v1.2.9 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/presigned-url v1.10.9 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.16.9 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sns v1.25.3 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sqs v1.28.2 // indirect
+	github.com/aws/aws-sdk-go-v2/service/sns v1.26.5 // indirect
+	github.com/aws/aws-sdk-go-v2/service/sqs v1.29.5 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sso v1.18.5 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.21.5 // indirect
-	github.com/aws/aws-sdk-go-v2/service/sts v1.26.5 // indirect
+	github.com/aws/aws-sdk-go-v2/service/sts v1.26.6 // indirect
 	github.com/aws/smithy-go v1.19.0 // indirect
 	github.com/boltdb/bolt v1.3.1 // indirect
 	github.com/bradenaw/juniper v0.13.1 // indirect
@@ -264,7 +264,7 @@ require (
 	github.com/mitchellh/colorstring v0.0.0-20190213212951-d06e56a500db // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/montanaflynn/stats v0.7.0 // indirect
-	github.com/nats-io/nats.go v1.30.2 // indirect
+	github.com/nats-io/nats.go v1.31.0 // indirect
 	github.com/nats-io/nkeys v0.4.6 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
 	github.com/ncw/go-acd v0.0.0-20201019170801-fe55f33415b1 // indirect
@@ -318,8 +318,8 @@ require (
 	github.com/zeebo/blake3 v0.2.3 // indirect
 	github.com/zeebo/errs v1.3.0 // indirect
 	go.etcd.io/bbolt v1.3.8 // indirect
-	go.etcd.io/etcd/api/v3 v3.5.9 // indirect
-	go.etcd.io/etcd/client/pkg/v3 v3.5.9 // indirect
+	go.etcd.io/etcd/api/v3 v3.5.11 // indirect
+	go.etcd.io/etcd/client/pkg/v3 v3.5.11 // indirect
 	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.26.0 // indirect
